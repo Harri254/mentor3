@@ -1,0 +1,139 @@
+body{
+    font-size: 16px;
+    margin: 0;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+}
+/*
+.outfit-<uniquifier> {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.young-serif-regular {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+*/
+h1{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-size: 2.3rem;
+    line-height: 35px;
+}
+p{
+    line-height: 20px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    text-align: justify;
+}
+.Preparation{
+    background-color:hsl(330, 100%, 98%);
+    border-radius: 10px;
+    padding: 15px;
+    font-family: "Outfit", sans-serif;
+}
+.h-prep{
+    color: hsl(332, 51%, 32%);
+    margin: 0 0 10px;
+}
+.prep-list {
+    line-height: 25px;
+    font-size: 1.0rem;
+    margin: 0;
+    color: hsl(30, 10%, 34%);
+    padding-right: 50px;
+}
+li::marker{
+    color: hsl(332, 51%, 32%);
+    height: 100%;
+}
+.prep-list>li::marker{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    height: fit-content;
+}
+.ingred-list, .instr-list{
+    line-height: 25px;
+    font-size: 1.0rem;
+    color: hsl(30, 10%, 34%);
+}
+.instr-list{
+    padding-right: 10px;
+}
+.h-ingred, .h-instr, .nutri{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    color: hsl(14, 45%, 36%);
+}
+.table{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+.item1, .item2{
+    width: 50%;
+    font-family: "Outfit", sans-serif;
+}
+.item2{
+    color: hsl(14, 45%, 36%);  
+    font-weight: 700; 
+}
+.item1{
+    padding-left: 30px;
+    color: hsl(30, 10%, 34%);
+}
+.main-container{
+    padding: 25px;
+}
+hr{
+    margin: 0;
+}
+.recipe{
+    line-height: 25px;
+    font-size: 1.04rem;
+    color: hsl(30, 10%, 34%);
+}
+.p-table{
+    padding-right:20px;
+    line-height: 25px;
+    font-size: 1.05rem;
+    color: hsl(30, 10%, 34%);
+    text-align: sjustify;
+}
+
+@media (min-width:426px) {
+    body{
+        background-color: hsl(30, 54%, 90%);
+        display: grid;
+        place-items: center;
+    }
+    .main-div{
+        background-color: hsl(0, 0%, 100%);
+        padding: 20px;
+        width: 425px;
+        border-radius: 20px;
+        margin: 7% 0;
+    }
+    img{
+        border-radius: 15px;
+    }
+}
+@media(min-width:768px) {
+    img{
+        border-radius: 15px;
+    }
+    .main-div{
+        background-color: hsl(0, 0%, 100%);
+        padding: 20px;
+        width: 50%;
+        margin: 8% 25%;
+        border-radius: 20px;
+    }
+    body{
+        background-color: hsl(30, 54%, 90%);
+    }
+}
